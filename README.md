@@ -42,7 +42,10 @@ git push -u origin master
 
 ## Дополнение практической работы №1. «Делимся проектом с миром»
 ------
+<<<<<<< HEAD
 * Отображение схем через mermaid
+=======
+>>>>>>> d2b844781c5ea31a19b18e7da259f4d9210c01af
 
 ```mermaid
 graph LR;
@@ -53,6 +56,7 @@ graph LR;
   A --> B;
 ```
 
+<<<<<<< HEAD
 * Дополнить последний коммит новыми данными
 ```sh
 git commit --amend --no-edit
@@ -63,5 +67,7 @@ git commit --amend --no-edit
 git commit --amend -m "Обновлённое сообщение коммита"
 ```
 
+=======
+>>>>>>> d2b844781c5ea31a19b18e7da259f4d9210c01af
 ## Расположение
  [Репозиторий GitHub дайнной справки https://github.com/knyazkovp/HW1](https://github.com/knyazkovp/HW1) 
