@@ -39,5 +39,29 @@ git remote -v
 ```sh
 git push -u origin master
 ```
+
+## Дополнение практической работы №1. «Делимся проектом с миром»
+------
+* Отображение схем через mermaid
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+```
+
+* Дополнить последний коммит новыми данными
+```sh
+git commit --amend --no-edit
+```
+
+* Дополнить последний коммит новыми данными с новым комментарием
+```sh
+git commit --amend -m "Обновлённое сообщение коммита"
+```
+
 ## Расположение
  [Репозиторий GitHub дайнной справки https://github.com/knyazkovp/HW1](https://github.com/knyazkovp/HW1) 
